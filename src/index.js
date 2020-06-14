@@ -1,5 +1,13 @@
 import './index.html';
 import './style.css';
+import Vue from 'vue';
+import App from './App.vue';
+import './index.html';
+
+new Vue({
+  el: '#app',
+  render: h => h(App),
+});
 
 let upLikes = 0;
 let downLikes = 0;
